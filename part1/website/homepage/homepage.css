@@ -1,0 +1,109 @@
+/* General page layout */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+/* Centered Heading */
+header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    font-size: 24px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#username{
+    color: #000000;
+}
+
+/* Message Window Styling */
+#messageWindow {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    border: 2px solid #ddd;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Message Bubble */
+.message {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    background-color: #d1e7ff;
+    align-self: flex-end;
+}
+
+/* Text box and button at the bottom */
+footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-top: 2px solid #ddd;
+}
+
+#messageForm {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+#messageInput {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 8px; /* Adjust for more or less rounding */
+    border: 2px solid #4CAF50;
+}
+
+#sendButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: #45a049;
+    color: white;
+    border-radius: 8px;
+    background-color: #4CAF50;
+    flex-shrink: 0;
+    border: 2px solid #45a049;
+}
+
+#sendButton:hover {
+    background-color: #45a049;
+}
+
+/* header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa; /* adjust as needed */ 
+
+#logoutButton {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: #FFFFFF; /* Button color */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#logoutButton:hover {
+    background-color: rgb(222, 222, 222); /* Hover color */
+}
+

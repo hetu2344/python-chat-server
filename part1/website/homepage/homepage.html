@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Board</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body onload="getPrevMsg()">
+
+<header>
+    <span>Welcome <span id="username"> {} </span> to the Discordn't</span>
+    <button id="logoutButton">Logout</button>
+</header>
+
+<!-- Message Display Window -->
+<div id="messageWindow">
+    
+</div>
+
+<!-- Input Area at the Bottom -->
+<footer>
+    <form id="messageForm" onsubmit="sendMessage(event)">
+        <input type="text" id="messageInput" placeholder="Type your message..." autocomplete="off"/>
+        <button type="button" id="sendButton">Send</button>    
+    </form>
+</footer>
+
+<script src="homepage.js"></script>
+</body>
+</html>
