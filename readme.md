@@ -1,7 +1,7 @@
 ## Part 1
 
 ### Files
-- **chat_server.py**: Backend server that manages the chat, from `a1` with some modification so that it can handle *web clients* and *terminal clients* seprately.
+- **chat_server.py**: Backend server that manages the chat, with some modification so that it can handle *web clients* and *terminal clients* seprately.
 - **web_server.py**: Multi-threared Server that will talk to the *chat_server* and will handle the request of *web clients* respectively.
 - **chatbot.db**: SQLite3 database for storing chat data.
 - **website**: A folder containing necessary files for the frontend web page.
