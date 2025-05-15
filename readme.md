@@ -1,7 +1,3 @@
-# COMP 3010 - Assignment 2
-### Name: Het Patel
-### Student Number: 7972424
-
 ## Part 1
 
 ### Files
